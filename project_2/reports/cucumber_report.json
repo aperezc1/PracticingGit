@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-on-google;user-searches-for-\"laptop\"-on-google",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User searches for \"laptop\" on Google",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Google homepage",
+            "match": {
+              "location": "steps\\ejemplo.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1703244899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter \"laptop\" in the search box",
+            "match": {
+              "location": "steps\\ejemplo.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71187899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the \"Buscar\" button",
+            "match": {
+              "location": "steps\\ejemplo.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548470300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the Google search results page",
+            "match": {
+              "location": "steps\\ejemplo.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112316200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-on-google",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search on Google",
+    "tags": [],
+    "uri": "features\\ejemplo.feature"
+  }
+]
